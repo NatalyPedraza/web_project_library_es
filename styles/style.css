@@ -1,6 +1,6 @@
 .page {
-  max-width: 1100px;
-  min-width: 1600px;
+  max-width: 1600px;
+  min-width: 1100px;
   margin: auto;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -41,12 +41,13 @@
   display: flex;
   justify-content: space-between;
   text-decoration: none;
-  color: inherit;
+  color: #000000;
+  font-weight: bold;
 }
 
 .header__content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .header__title {
@@ -62,6 +63,7 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 515px;
+  margin: 0;
 }
 
 .header__image {
@@ -113,7 +115,7 @@
 }
 
 .staff__cards {
-  max-width: 770px;
+  max-width: 760px;
   margin: 68px auto 0;
   display: flex;
   flex-wrap: wrap;
